@@ -1,0 +1,21 @@
+import React from "react";
+const Box2comp =({icon,name,details})=>{
+    return (
+        <>
+            <div className="grid bg-emerald-200 text-center gap-1 pt-7 md:h-46 md:py- md:w-64">
+                <div className=" flex place-content-center ">
+                   <img className=" rounded-full size-16 " src={icon} alt="img"/>
+                </div>
+                <div className="">
+                    <h1 className="font-bold">{name}</h1>
+                </div>
+                <article className=" ">
+                    <p>
+                        {details}
+                    </p>
+                </article>
+            </div>        
+        </>
+    )
+}
+export default Box2comp
