@@ -3,7 +3,7 @@ const Mission =()=>{
 
     return(
         <>
-            <section className=" bg-[url('/cafeteria.jpeg')] h-cover  mt-20 text-center px-9">
+            <section className=" bg-[url('/mission.jpg')] bg-repeat-0 h-cover  py-5  mt-20  text-center px-9">
                 <div className=" text-white p-5">   
                     <h3 className=" font-extrabold text-4xl text-emerald-500"> Our Mission</h3>
                     <article className="font-bold">

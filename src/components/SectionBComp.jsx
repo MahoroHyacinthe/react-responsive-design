@@ -15,7 +15,7 @@ const SectionBComp = ()=>{
                             business
                         </article>        
                     </div>
-                    <div className="" >
+                    <div>
                         <article>
                             We offer creative working
                             environments that suit your
@@ -33,7 +33,7 @@ const SectionBComp = ()=>{
 
                     </article>        
                 </div>
-                <div className="sm:grid sm_h-auto lg:flex md:flex lg:gap-0 lg:pl-6 md:w-screen lg:w-auto">
+                <div className="sm:grid sm:h-auto lg:flex md:flex lg:pl-2 lg:pr-10 lg:pl-10 ">
                     <div className="grid p-3 md:p-3 gap-7 h-56 md:grid lg:grid">
                         <Box2comp 
                         icon = "/capture.JPG"
@@ -54,7 +54,7 @@ const SectionBComp = ()=>{
                         
                         />
                     </div>
-                        <img className=" p-4 md:p-3 md:h-160 lg:h-160 lg:w-full" src="/section3.JPG" alt="" />
+                        <img className=" p-4 sm:h-cover sm:w-cover sm:0  mt-100 md:mt-0 md:p-3 md:h-160 lg:h-160 lg:w-full" src="/section3.JPG" alt="" />
                       <div className="grid p-3 gap-7 md:grid lg:p-3 lg:gap-7 lg:grid ">
                         <Box2comp 
                         icon = "/capture.JPG"
