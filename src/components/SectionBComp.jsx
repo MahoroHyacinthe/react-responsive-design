@@ -1,9 +1,10 @@
 import React from "react"
 import Box2comp from "./Box2comp"
+import Mission from "./MIssion"
 const SectionBComp = ()=>{
     return(
         <>
-            <section className="h-screen bg-gray-50  px-8 " >
+            <section className="h-auto bg-gray-50  px-8 " >
                 <div className="grid sm:gap-4 md:flex md:justify-between lg:flex lg:justify-evenly md:h-40">
                     <div className=" pb-8 border-b-2 border-b-emerald-600 md:border-b-0 md:border-r-2
                      md:border-b-emerald-600 lg:border-r-2 lg:pr-20">
@@ -32,8 +33,8 @@ const SectionBComp = ()=>{
 
                     </article>        
                 </div>
-                <div className=" md:flex md:px-16">
-                    <div className="grid p-3 gap-7 h-56 ">
+                <div className="sm:grid sm_h-auto lg:flex md:flex lg:gap-0 lg:pl-6 md:w-screen lg:w-auto">
+                    <div className="grid p-3 md:p-3 gap-7 h-56 md:grid lg:grid">
                         <Box2comp 
                         icon = "/capture.JPG"
                         name = "Creative spaces"
@@ -53,10 +54,8 @@ const SectionBComp = ()=>{
                         
                         />
                     </div>
-                    <div className=" ">
-                        <img className=" w-full p-4 md:hidden lg:block lg:h-160 " src="/section3.JPG" alt="" />
-                    </div>
-                      <div className="grid p-3 gap-7">
+                        <img className=" p-4 md:p-3 md:h-160 lg:h-160 lg:w-full" src="/section3.JPG" alt="" />
+                      <div className="grid p-3 gap-7 md:grid lg:p-3 lg:gap-7 lg:grid ">
                         <Box2comp 
                         icon = "/capture.JPG"
                         name = "Creative spaces"

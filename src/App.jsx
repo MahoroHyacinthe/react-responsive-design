@@ -2,6 +2,7 @@ import Firstcomp from "./components/Firstcomp"
 import Homepage from "./components/Homepage"
 import SectionComp from "./components/SectionComp"
 import SectionBComp from "./components/SectionBComp"
+import Mission from "./components/MIssion"
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <Firstcomp/>
       <Homepage/>
       <SectionComp/>
-      <SectionBComp/>  
+      <SectionBComp/>
+      <Mission/>  
     </>
   )
 }
