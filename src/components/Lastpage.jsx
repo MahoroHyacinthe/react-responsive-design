@@ -4,11 +4,11 @@ import Inputs from "./Inputs";
 const Lastpage=()=>{
 
     return(
-    <section className="flex justify-around ">
-        <div>
+    <section className=" grid lg:flex h-auto justify-around  pt-15 ">
+        <div className=" size-01">
             <div className="grid gap-2 text-3xl" >
                 <h1>contact us</h1>
-                <p className=" text-6xl font-bold">Say Hello</p>
+                <p className=" text-4xl font-bold">Say Hello</p>
             </div>
             <div className="grid gap-10 mt-15 mb-15">
                 <Adresses 
@@ -31,8 +31,8 @@ const Lastpage=()=>{
             <div>
                 <div className="grid gap-2 text-3xl" >
                 <h1>Have a Question ?</h1>
-                <p className=" text-6xl font-bold">Send a Message</p>
-                <div className=" grid gap-15 pt-5">
+                <p className=" text-4xl font-bold">Send a Message</p>
+                <div className=" grid gap-10 pt-5">
                     <Inputs 
                     type ="name"
                     placeholder="name"
@@ -45,7 +45,8 @@ const Lastpage=()=>{
                     type ="name"
                     placeholder="Subject"
                     />
-                     <input className=" border-2 border-emerald-600 rounded p-2 pb-20" type="text" placeholder="placeholder" />
+                     <input className=" border-2 border-emerald-600 rounded p-2 pb-20" type="text" placeholder="Message" />
+                     <button className="  flex items-start mr-60 ">Send Message</button>
                 </div>
             </div>
         </div>

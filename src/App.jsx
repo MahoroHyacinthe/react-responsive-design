@@ -4,7 +4,8 @@ import SectionComp from "./components/SectionComp"
 import SectionBComp from "./components/SectionBComp"
 import Mission from "./components/MIssion"
 import Lastpage from "./components/Lastpage"
-
+import Footercomp from "./components/FooterComp"
+import Copyright from "./components/Copyright"
 function App() {
   return (
     <>
@@ -14,6 +15,9 @@ function App() {
       <SectionBComp/>
       <Mission/>
       <Lastpage/>
+      <Footercomp/>
+      <Copyright/>
+
     </>
   )
 }
