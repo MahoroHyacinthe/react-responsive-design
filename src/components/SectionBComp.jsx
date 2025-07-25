@@ -33,7 +33,7 @@ const SectionBComp = ()=>{
 
                     </article>        
                 </div>
-                <div className="sm:grid sm:h-auto lg:flex md:flex lg:pl-2 lg:pr-10 lg:pl-10 ">
+                <div className="sm:grid sm:h-auto lg:flex md:flex  lg:pr-10 lg:pl-10 ">
                     <div className="grid p-3 md:p-3 gap-7 h-56 md:grid lg:grid">
                         <Box2comp 
                         icon = "/capture.JPG"
