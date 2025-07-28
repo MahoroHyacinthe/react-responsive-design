@@ -29,10 +29,10 @@ const Lastpage=()=>{
             </div>
             </div>
             <div>
-                <div className="grid gap-2 text-3xl" >
+                <div className=" w-sm  sm:grid sm:text-base sm:text-center md:grid md:text-start gap-2 text-3xl" >
                 <h1>Have a Question ?</h1>
                 <p className=" text-4xl font-bold">Send a Message</p>
-                <div className=" grid gap-10 pt-5">
+                <div className=" w-sm sm:text-base  grid gap-10 pt-5">
                     <Inputs 
                     type ="name"
                     placeholder="name"
@@ -45,8 +45,8 @@ const Lastpage=()=>{
                     type ="name"
                     placeholder="Subject"
                     />
-                     <input className=" border-2 border-emerald-600 rounded p-2 pb-20" type="text" placeholder="Message" />
-                     <button className="  flex items-start mr-60 ">Send Message</button>
+                     <input className=" w-sm md:w-sm border-2 border-emerald-600 rounded p-2 pb-20" type="text" placeholder="Message" />
+                     <button className=" w-xs  md: lg:w-xs text-amber-100 sm:items-start flex items-start mr-60 ">Send Message</button>
                 </div>
             </div>
         </div>

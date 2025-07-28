@@ -3,7 +3,7 @@ const Inputs = ({type,placeholder}) =>{
 
     return(
         <>
-        <input className=" border-2 border-emerald-600 rounded p-2" type={type} placeholder={placeholder} />
+        <input className=" w-sm text-base  md:text-balance border-2 border-emerald-600 rounded p-2" type={type} placeholder={placeholder} />
         </>
     )
 
